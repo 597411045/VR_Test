@@ -30,6 +30,7 @@ public class UAV_BodyScript : MonoBehaviour
 
         if (!other.gameObject.name.Contains("UAVHand")) return;
         UVAHand = other.transform;
+        if (Vector3.Distance(this.transform.parent.position, other.transform.position) > 0.1f) return;
         if (Vector3.Angle(UVAHand.forward, this.transform.forward) > 10) return;
         if (Vector3.Angle(UVAHand.up, -this.transform.right) > 10) return;
         if (Vector3.Angle(UVAHand.right, this.transform.up) > 10) return;

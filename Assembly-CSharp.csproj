@@ -68,6 +68,7 @@
     <Compile Include="Assets\CustomVR\ImageScript.cs" />
     <Compile Include="Assets\CustomVR\UAV_BodyScript.cs" />
     <Compile Include="Assets\CustomVR\UAV_HandScript.cs" />
+    <Compile Include="Assets\CustomVR\UAV_LegSlotScript.cs" />
     <Compile Include="Assets\CustomVR\UnityEventScript.cs" />
     <Reference Include="UnityEngine">
       <HintPath>E:/Unity/Editor/2019.4.21/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
